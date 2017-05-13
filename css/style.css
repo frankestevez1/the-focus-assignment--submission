@@ -1,0 +1,243 @@
+body, html {
+  background-color: #f4f4f4;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+h1 {
+  color: #222222;
+  font-size: 22px;
+  font-family: "Raleway";
+  font-weight: bold;
+  line-height: 0.818;
+  margin-bottom: 30px;
+ }
+h2{
+  position: relative;
+  font-size: 24px;
+  font-family: "Raleway";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+p {
+  color: #a6a6a6;
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+  line-height: 1.625;
+  margin-bottom: 60px;
+}
+span{
+ padding-right: 24px;
+}
+header {
+  background: url("../img/large-banner-image.png") no-repeat; 
+  position: absolute;
+  width: 100%;
+  height: 916px;
+}
+header h1 {
+  position: relative;
+  font-size: 60px;
+  font-family: "Pacifico";
+  color: rgb(34, 34, 34);
+  line-height: 0.3;
+  text-align: center;
+  top: 98px;
+}
+header p {
+  position: relative;
+  font-size: 36px;
+  font-family: "Raleway";
+  color: rgb(34, 34, 34);
+  line-height: 0.5;
+  text-align: center;
+  top: 150px;
+}
+img.arrow{
+  position: absolute;
+  left: 698px;
+  top: 318px; 
+}
+#iphone {
+  background: url("../img/iphone.png") no-repeat;
+  position: absolute;
+  left: 497px;
+  width: 464px;
+  height: 806px;
+  top:-300px;
+}
+#iphone .dot1{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 270px;
+  top: 202px;
+}
+#iphone .dot2{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 148px;
+  top: 300px;
+}
+#iphone .dot3{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 275px;
+  top: 407px;
+}
+#iphone .cursor{
+  position: absolute;
+  width: 18px;
+  height: 20px;
+  left: 282px;
+  top: 420px;
+}
+#iphone .line{
+  position: absolute;
+  width: 137px;
+  height: 112px;
+  left: 294px;
+  top: 440px;
+}
+#iphone .dot4{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 148px;
+  top: 496px;
+}
+#features{
+  position: absolute; 
+  width:100%;
+  height:496px;
+  top: 700px;
+  padding-top: 50px;
+}
+#features .left{
+  position: relative;
+  width: 295px;
+  left: 195px;
+  display: inline-block;
+}
+#features .right{
+  position: relative;
+  width: 295px;
+  left: 650px;
+  display:inline-block;
+}
+#container {
+  background-color: rgb(227, 227, 227);
+  position: absolute; 
+  width: 100%; 
+  height: 427px;
+  top: 1196px;
+  overflow: hidden;
+}
+#content {
+  position: relative;
+  width: 533px;
+  left:132px;
+  top: 60px;
+  display:inline-block;
+}
+#content img{
+  padding-right: 10px;
+}
+#video {
+  background: url("../img/video-image.png") no-repeat;
+  position: absolute;
+  width: 100%;
+  height:100%;
+  left: 810px;
+  top: 60px;
+  display: inline-block;
+}
+#video .play{
+  width: 76px;
+  height: 43px;
+  left: 908px;
+  padding-top: 243px;
+  padding-left: 14px;
+}
+#video .bar{
+  position: relative;
+  width: 371px;
+  height: 33px;
+  left: 15px;
+}
+#bottom-container{
+  position: absolute; 
+  width:100%;
+  height:737px;
+  top:1623px;
+  text-align: center;
+}
+#bottom-container h1{
+  position: relative;
+  font-size: 24px;
+  font-family: "Raleway";
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  top: 60px;
+}
+#bottom-container p{
+  position: relative;
+  font-size: 14px;
+  font-family: "Helvetica Neue";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.714;
+  top: 30px;
+}
+#bottom-container img{
+  position: relative;
+  padding-right: 7px;
+} 
+#bottom-container .cursor{
+  position: absolute;
+  left: 700px;
+  top: 615px;
+  width: 18px;
+  height: 20px;
+}
+#banner{
+  background-image: url("../img/people.png"); 
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 321px;
+  top: 1802px;
+}
+#banner .active-person {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 914px;
+  top: 187px;
+}
+#banner .cursor {
+  position: absolute;
+  width: 18px;
+  height: 20px;
+  left: 924px;
+  top: 240px;
+}
+footer {
+  position: absolute;
+  background: #e3e3e3;
+  text-align: center;
+  width: 100%;
+  height: 139px;
+  top:2360px;
+}
+footer p {
+  position: relative;
+  color: rgb(132, 132, 132);
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+  line-height: 1.625;
+  padding-right: 16px;
+  top:60px;
+  display: inline;
+}
